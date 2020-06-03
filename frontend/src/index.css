@@ -1,0 +1,44 @@
+body {
+  margin: 0%;
+  padding:2%;
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root{
+  height: 95vh;
+  border-radius: 10px;
+  border: 2px solid #e7e7e7;
+  background-color: #f3ebeb4d;
+}
+h1, h2, h3, h4, h5, h6 {
+  padding: 5px;
+  font-family: "PT Serif", serif;
+}
+
+select.form-control,
+textarea.form-control,
+input.form-control {
+  font-size: 16px;
+}
+input[type=file] {
+  width: 100%;
+}
+.lander{
+  padding: 10%;
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+}
+.btn{
+  margin-left: 2%;
+  width: 48%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
